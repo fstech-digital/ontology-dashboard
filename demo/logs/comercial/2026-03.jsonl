@@ -1,0 +1,5 @@
+{"ts":"2026-03-01T10:00:00Z","type":"lead.contact","agent":"dashboard","lead":"John Smith","empresa":"Acme Corp","details":"Inbound demo request via website"}
+{"ts":"2026-03-05T14:30:00Z","type":"meeting_done","agent":"dashboard","lead":"John Smith","empresa":"Acme Corp","details":"Discovery call — 45min, interested in automation"}
+{"ts":"2026-03-10T09:00:00Z","type":"proposal_sent","agent":"dashboard","lead":"John Smith","empresa":"Acme Corp","details":"Proposal sent: $2,400/mo operational system"}
+{"ts":"2026-03-12T11:00:00Z","type":"lead.contact","agent":"dashboard","lead":"Sarah Chen","empresa":"TechFlow Inc","details":"Referral from existing client"}
+{"ts":"2026-03-15T16:00:00Z","type":"meeting_done","agent":"dashboard","lead":"Sarah Chen","empresa":"TechFlow Inc","details":"Technical deep-dive — strong fit"}

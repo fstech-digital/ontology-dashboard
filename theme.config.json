@@ -1,0 +1,69 @@
+{
+  "$schema": "Ontology Dashboard Theme Config",
+  "name": "Zed One Dark",
+  "version": "1.0.0",
+  "description": "Default dark theme based on Zed One Dark.",
+
+  "colors": {
+    "primary": { "light": "#74ade8", "main": "#61afef", "dark": "#4d8bc0", "contrastText": "#1e2127" },
+    "secondary": { "light": "#a9afbc", "main": "#7f848e", "dark": "#5c6370", "contrastText": "#FFF" },
+    "success": { "light": "#aed19b", "main": "#98c379", "dark": "#7a9e60", "contrastText": "#1e2127" },
+    "warning": { "light": "#ebd092", "main": "#e5c07b", "dark": "#bfa063", "contrastText": "#1e2127" },
+    "error": { "light": "#e88388", "main": "#e06c75", "dark": "#b8555d", "contrastText": "#1e2127" },
+    "info": { "light": "#82b8e0", "main": "#61afef", "dark": "#4d8bc0", "contrastText": "#1e2127" }
+  },
+
+  "backgrounds": {
+    "body": "#282c33",
+    "paper": "#2f343e",
+    "sidebar": "#21252b",
+    "hover": "#363c46",
+    "tableHeader": "#2f343e"
+  },
+
+  "text": {
+    "primary": "rgba(220, 224, 229, 0.92)",
+    "secondary": "rgba(169, 175, 188, 0.72)",
+    "disabled": "rgba(127, 132, 142, 0.50)"
+  },
+
+  "grey": {
+    "50": "#2f343e",
+    "100": "#363c46",
+    "200": "#3e4451",
+    "300": "#464b57",
+    "400": "#5c6370",
+    "500": "#7f848e",
+    "600": "#a9afbc",
+    "700": "#c8ccd4",
+    "800": "#dce0e5",
+    "900": "#eceff4"
+  },
+
+  "divider": "rgba(70, 75, 87, 0.60)",
+
+  "action": {
+    "active": "rgba(169, 175, 188, 0.54)",
+    "hover": "rgba(169, 175, 188, 0.08)",
+    "selected": "rgba(97, 175, 239, 0.12)",
+    "disabled": "rgba(169, 175, 188, 0.26)",
+    "focus": "rgba(97, 175, 239, 0.16)"
+  },
+
+  "scrollbar": {
+    "width": 6,
+    "thumb": "#464b57",
+    "track": "#282c33"
+  },
+
+  "border": {
+    "card": "rgba(70, 75, 87, 0.50)",
+    "cardHover": "rgba(70, 75, 87, 0.80)"
+  },
+
+  "typography": {
+    "fontFamily": "Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, sans-serif",
+    "fontFamilyMono": "\"Fira Code\", \"IBM Plex Mono\", monospace",
+    "borderRadius": 6
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "name": "ontology-dashboard",
+  "version": "1.0.0",
+  "description": "An ontology-driven operations dashboard with multi-LLM chat, Zed-inspired layout, and zero database.",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next dev -p 3333",
+    "build": "next build",
+    "start": "next start -p 3333"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.78.0",
+    "@emotion/react": "11.11.0",
+    "@emotion/styled": "11.11.0",
+    "@google/generative-ai": "^0.24.1",
+    "@iconify/react": "4.1.1",
+    "@mui/lab": "5.0.0-alpha.170",
+    "@mui/material": "5.15.0",
+    "@mui/system": "5.15.0",
+    "apexcharts": "3.44.0",
+    "formidable": "^3.5.4",
+    "glob": "10.3.10",
+    "jsonwebtoken": "^9.0.3",
+    "next": "13.5.7",
+    "openai": "^6.25.0",
+    "react": "18.2.0",
+    "react-apexcharts": "1.4.1",
+    "react-dom": "18.2.0",
+    "react-markdown": "^8.0.7",
+    "remark-gfm": "^3.0.1"
+  }
+}

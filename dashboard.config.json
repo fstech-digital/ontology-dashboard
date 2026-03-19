@@ -1,0 +1,58 @@
+{
+  "$schema": "Ontology Dashboard Instance Config",
+  "version": "1.0.0",
+
+  "instance": {
+    "name": "My Company",
+    "title": "Ontology Dashboard",
+    "logo": "/logo.png",
+    "user": {
+      "name": "Admin",
+      "role": "Operator"
+    }
+  },
+
+  "theme": "theme.config.json",
+
+  "sections": [
+    { "id": "welcome",    "component": "WelcomeCard",  "enabled": true },
+    { "id": "stats",      "component": "StatsRow",     "enabled": true },
+    { "id": "heartbeat",  "component": "Heartbeat",    "enabled": true },
+    { "id": "projects",   "component": "Projects",     "enabled": true },
+    { "id": "crons",      "component": "CronPanel",    "enabled": true },
+    { "id": "financeiro", "component": "BarChart",     "enabled": false },
+    { "id": "pipeline",   "component": "Pipeline",     "enabled": true },
+    { "id": "propostas",  "component": "Propostas",    "enabled": false },
+    { "id": "gitlog",     "component": "GitLog",       "enabled": true }
+  ],
+
+  "parsers": {
+    "agents":     { "enabled": true,  "source": "pin",        "file": "demo/pins/operations-pin.md" },
+    "crons":      { "enabled": true,  "source": "pin",        "file": "demo/pins/operations-pin.md" },
+    "heartbeat":  { "enabled": true,  "source": "heartbeat",  "file": "demo/HEARTBEAT.md" },
+    "comercial":  { "enabled": true,  "source": "logs",       "dir": "demo/logs/comercial" },
+    "financeiro": { "enabled": false, "source": "financeiro", "dir": "demo/financeiro" },
+    "propostas":  { "enabled": false, "source": "propostas",  "dir": "demo/propostas" },
+    "projects":   { "enabled": true,  "source": "specs",      "dir": "demo/projects" },
+    "gitlog":     { "enabled": true,  "source": "git",        "limit": 15 }
+  },
+
+  "projects": {
+    "allowlist": []
+  },
+
+  "tools": [
+    "read_file",
+    "list_directory",
+    "ontology_search"
+  ],
+
+  "layout": {
+    "topBarHeight": 48,
+    "filesWidth": 300,
+    "chatWidth": 380,
+    "minPanel": 200,
+    "maxPanel": 600,
+    "refreshInterval": 60000
+  }
+}
